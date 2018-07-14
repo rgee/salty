@@ -2,13 +2,15 @@
   "name": "salty",
   "version": "0.1.0",
   "sources": {
-      "dir": "src",
-      "subdirs" : true
+    "dir": "src",
+    "subdirs": true
   },
   "package-specs": {
     "module": "commonjs"
   },
   "suffix": ".bs.js",
-  "bs-dependencies": [
-   ]
+  "bs-dependencies": [],
+  "warnings": {
+    "error": "+8"
+  }
 }
